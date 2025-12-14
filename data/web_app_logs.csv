@@ -1,0 +1,201 @@
+timestamp,level,server_name,client_ip,http_method,endpoint,http_status,response_time_ms,user_agent,message
+2025-01-15 08:00:00,WARNING,app-server-01,192.168.1.155,POST,/api/search,401,55,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,POST request to /api/search completed with status 401
+2025-01-15 08:00:30,WARNING,web-server-01,192.168.1.57,POST,/api/search,401,50,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,POST request to /api/search completed with status 401
+2025-01-15 08:01:00,INFO,web-server-01,192.168.1.27,POST,/api/products,200,52,PostmanRuntime/7.0.0,POST request to /api/products completed with status 200
+2025-01-15 08:01:30,DEBUG,web-server-01,192.168.1.183,POST,/api/payment,200,49,Chrome/120.0.0.0 Safari/537.36,POST request to /api/payment completed with status 200
+2025-01-15 08:02:00,INFO,web-server-01,192.168.1.177,DELETE,/api/payment,200,37,Chrome/120.0.0.0 Safari/537.36,DELETE request to /api/payment completed with status 200
+2025-01-15 08:02:30,INFO,db-server-01,192.168.1.165,DELETE,/api/payment,200,58,Chrome/120.0.0.0 Safari/537.36,DELETE request to /api/payment completed with status 200
+2025-01-15 08:03:00,INFO,db-server-01,192.168.1.234,POST,/api/users,200,128,Chrome/120.0.0.0 Safari/537.36,POST request to /api/users completed with status 200
+2025-01-15 08:03:30,DEBUG,db-server-01,192.168.1.67,GET,/api/orders,200,86,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,GET request to /api/orders completed with status 200
+2025-01-15 08:04:00,DEBUG,web-server-01,192.168.1.226,GET,/api/search,200,28,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,GET request to /api/search completed with status 200
+2025-01-15 08:04:30,WARNING,app-server-01,192.168.1.8,DELETE,/api/payment,401,47,Chrome/120.0.0.0 Safari/537.36,DELETE request to /api/payment completed with status 401
+2025-01-15 08:05:00,INFO,db-server-01,192.168.1.149,PUT,/api/users,200,100,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,PUT request to /api/users completed with status 200
+2025-01-15 08:05:30,INFO,web-server-01,192.168.1.121,GET,/api/orders,200,73,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,GET request to /api/orders completed with status 200
+2025-01-15 08:06:00,INFO,db-server-01,192.168.1.228,PUT,/api/reports,200,120,Chrome/120.0.0.0 Safari/537.36,PUT request to /api/reports completed with status 200
+2025-01-15 08:06:30,INFO,db-server-01,192.168.1.14,DELETE,/api/search,200,66,PostmanRuntime/7.0.0,DELETE request to /api/search completed with status 200
+2025-01-15 08:07:00,DEBUG,app-server-01,192.168.1.221,POST,/api/payment,200,79,PostmanRuntime/7.0.0,POST request to /api/payment completed with status 200
+2025-01-15 08:07:30,INFO,app-server-01,192.168.1.125,PUT,/api/orders,200,38,Firefox/121.0,PUT request to /api/orders completed with status 200
+2025-01-15 08:08:00,DEBUG,web-server-01,192.168.1.73,PUT,/api/products,200,38,Firefox/121.0,PUT request to /api/products completed with status 200
+2025-01-15 08:08:30,INFO,app-server-01,192.168.1.168,POST,/api/orders,200,30,Chrome/120.0.0.0 Safari/537.36,POST request to /api/orders completed with status 200
+2025-01-15 08:09:00,INFO,app-server-01,192.168.1.57,POST,/api/reports,200,46,PostmanRuntime/7.0.0,POST request to /api/reports completed with status 200
+2025-01-15 08:09:30,WARNING,web-server-01,192.168.1.230,GET,/api/users,404,14,Chrome/120.0.0.0 Safari/537.36,GET request to /api/users completed with status 404
+2025-01-15 08:10:00,INFO,web-server-01,192.168.1.136,GET,/api/health,200,71,Chrome/120.0.0.0 Safari/537.36,GET request to /api/health completed with status 200
+2025-01-15 08:10:30,INFO,web-server-01,192.168.1.24,POST,/api/health,200,40,Firefox/121.0,POST request to /api/health completed with status 200
+2025-01-15 08:11:00,ERROR,app-server-01,192.168.1.217,GET,/api/reports,503,430,Firefox/121.0,GET request to /api/reports completed with status 503
+2025-01-15 08:11:30,INFO,app-server-01,192.168.1.154,POST,/api/products,200,62,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,POST request to /api/products completed with status 200
+2025-01-15 08:12:00,WARNING,db-server-01,192.168.1.124,PUT,/api/products,401,130,Chrome/120.0.0.0 Safari/537.36,PUT request to /api/products completed with status 401
+2025-01-15 08:12:30,INFO,web-server-01,192.168.1.135,GET,/api/search,200,24,Firefox/121.0,GET request to /api/search completed with status 200
+2025-01-15 08:13:00,WARNING,app-server-01,192.168.1.25,DELETE,/api/health,401,26,PostmanRuntime/7.0.0,DELETE request to /api/health completed with status 401
+2025-01-15 08:13:30,INFO,web-server-01,192.168.1.20,POST,/api/users,200,79,PostmanRuntime/7.0.0,POST request to /api/users completed with status 200
+2025-01-15 08:14:00,INFO,db-server-01,192.168.1.132,PUT,/api/orders,200,98,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,PUT request to /api/orders completed with status 200
+2025-01-15 08:14:30,INFO,db-server-01,192.168.1.28,PUT,/api/products,200,54,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,PUT request to /api/products completed with status 200
+2025-01-15 08:15:00,WARNING,db-server-01,192.168.1.54,PUT,/api/products,401,56,Chrome/120.0.0.0 Safari/537.36,PUT request to /api/products completed with status 401
+2025-01-15 08:15:30,DEBUG,db-server-01,192.168.1.84,PUT,/api/products,200,70,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,PUT request to /api/products completed with status 200
+2025-01-15 08:16:00,INFO,db-server-01,192.168.1.53,DELETE,/api/reports,200,62,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,DELETE request to /api/reports completed with status 200
+2025-01-15 08:16:30,DEBUG,db-server-01,192.168.1.14,GET,/api/products,200,57,Firefox/121.0,GET request to /api/products completed with status 200
+2025-01-15 08:17:00,INFO,web-server-01,192.168.1.133,DELETE,/api/users,200,58,PostmanRuntime/7.0.0,DELETE request to /api/users completed with status 200
+2025-01-15 08:17:30,DEBUG,app-server-01,192.168.1.49,POST,/api/login,200,22,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,POST request to /api/login completed with status 200
+2025-01-15 08:18:00,INFO,app-server-01,192.168.1.75,POST,/api/health,200,62,Firefox/121.0,POST request to /api/health completed with status 200
+2025-01-15 08:18:30,DEBUG,db-server-01,192.168.1.155,DELETE,/api/login,200,132,PostmanRuntime/7.0.0,DELETE request to /api/login completed with status 200
+2025-01-15 08:19:00,INFO,app-server-01,192.168.1.46,PUT,/api/reports,200,79,PostmanRuntime/7.0.0,PUT request to /api/reports completed with status 200
+2025-01-15 08:19:30,INFO,db-server-01,192.168.1.76,POST,/api/login,200,121,PostmanRuntime/7.0.0,POST request to /api/login completed with status 200
+2025-01-15 08:20:00,WARNING,db-server-01,192.168.1.244,DELETE,/api/search,401,146,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,DELETE request to /api/search completed with status 401
+2025-01-15 08:20:30,INFO,db-server-01,192.168.1.98,GET,/api/login,200,54,Chrome/120.0.0.0 Safari/537.36,GET request to /api/login completed with status 200
+2025-01-15 08:21:00,INFO,db-server-01,192.168.1.140,DELETE,/api/search,200,50,PostmanRuntime/7.0.0,DELETE request to /api/search completed with status 200
+2025-01-15 08:21:30,INFO,app-server-01,192.168.1.235,DELETE,/api/payment,200,53,PostmanRuntime/7.0.0,DELETE request to /api/payment completed with status 200
+2025-01-15 08:22:00,INFO,web-server-01,192.168.1.97,GET,/api/products,200,70,Chrome/120.0.0.0 Safari/537.36,GET request to /api/products completed with status 200
+2025-01-15 08:22:30,INFO,db-server-01,192.168.1.85,GET,/api/login,200,92,PostmanRuntime/7.0.0,GET request to /api/login completed with status 200
+2025-01-15 08:23:00,WARNING,db-server-01,192.168.1.85,DELETE,/api/health,404,64,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,DELETE request to /api/health completed with status 404
+2025-01-15 08:23:30,INFO,web-server-01,192.168.1.248,POST,/api/search,200,58,Chrome/120.0.0.0 Safari/537.36,POST request to /api/search completed with status 200
+2025-01-15 08:24:00,INFO,app-server-01,192.168.1.7,DELETE,/api/products,200,66,Firefox/121.0,DELETE request to /api/products completed with status 200
+2025-01-15 08:24:30,INFO,app-server-01,192.168.1.223,DELETE,/api/users,200,17,PostmanRuntime/7.0.0,DELETE request to /api/users completed with status 200
+2025-01-15 08:25:00,WARNING,db-server-01,192.168.1.227,POST,/api/login,401,66,Chrome/120.0.0.0 Safari/537.36,POST request to /api/login completed with status 401
+2025-01-15 08:25:30,WARNING,web-server-01,192.168.1.67,POST,/api/orders,401,29,PostmanRuntime/7.0.0,POST request to /api/orders completed with status 401
+2025-01-15 08:26:00,WARNING,app-server-01,192.168.1.76,GET,/api/search,404,51,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,GET request to /api/search completed with status 404
+2025-01-15 08:26:30,INFO,db-server-01,192.168.1.13,DELETE,/api/products,200,90,PostmanRuntime/7.0.0,DELETE request to /api/products completed with status 200
+2025-01-15 08:27:00,INFO,db-server-01,192.168.1.3,GET,/api/search,200,106,PostmanRuntime/7.0.0,GET request to /api/search completed with status 200
+2025-01-15 08:27:30,INFO,app-server-01,192.168.1.217,PUT,/api/reports,200,26,Firefox/121.0,PUT request to /api/reports completed with status 200
+2025-01-15 08:28:00,INFO,app-server-01,192.168.1.68,POST,/api/reports,200,48,Chrome/120.0.0.0 Safari/537.36,POST request to /api/reports completed with status 200
+2025-01-15 08:28:30,INFO,web-server-01,192.168.1.39,POST,/api/reports,200,38,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,POST request to /api/reports completed with status 200
+2025-01-15 08:29:00,DEBUG,web-server-01,192.168.1.146,DELETE,/api/users,200,54,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,DELETE request to /api/users completed with status 200
+2025-01-15 08:29:30,INFO,web-server-01,192.168.1.236,DELETE,/api/login,200,22,Firefox/121.0,DELETE request to /api/login completed with status 200
+2025-01-15 08:30:00,INFO,db-server-01,192.168.1.251,POST,/api/orders,200,125,Firefox/121.0,POST request to /api/orders completed with status 200
+2025-01-15 08:30:30,INFO,db-server-01,192.168.1.26,GET,/api/users,200,122,Chrome/120.0.0.0 Safari/537.36,GET request to /api/users completed with status 200
+2025-01-15 08:31:00,INFO,db-server-01,192.168.1.208,DELETE,/api/reports,200,100,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,DELETE request to /api/reports completed with status 200
+2025-01-15 08:31:30,INFO,db-server-01,192.168.1.20,PUT,/api/search,200,92,PostmanRuntime/7.0.0,PUT request to /api/search completed with status 200
+2025-01-15 08:32:00,INFO,app-server-01,192.168.1.152,GET,/api/login,200,71,PostmanRuntime/7.0.0,GET request to /api/login completed with status 200
+2025-01-15 08:32:30,WARNING,db-server-01,192.168.1.177,PUT,/api/payment,404,64,PostmanRuntime/7.0.0,PUT request to /api/payment completed with status 404
+2025-01-15 08:33:00,INFO,web-server-01,192.168.1.16,GET,/api/users,200,23,PostmanRuntime/7.0.0,GET request to /api/users completed with status 200
+2025-01-15 08:33:30,INFO,web-server-01,192.168.1.184,DELETE,/api/products,200,25,Firefox/121.0,DELETE request to /api/products completed with status 200
+2025-01-15 08:34:00,WARNING,app-server-01,192.168.1.57,PUT,/api/login,401,19,PostmanRuntime/7.0.0,PUT request to /api/login completed with status 401
+2025-01-15 08:34:30,INFO,app-server-01,192.168.1.62,GET,/api/products,200,51,Firefox/121.0,GET request to /api/products completed with status 200
+2025-01-15 08:35:00,INFO,app-server-01,192.168.1.83,POST,/api/users,200,60,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,POST request to /api/users completed with status 200
+2025-01-15 08:35:30,INFO,db-server-01,192.168.1.214,GET,/api/health,200,70,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,GET request to /api/health completed with status 200
+2025-01-15 08:36:00,INFO,db-server-01,192.168.1.253,GET,/api/users,200,149,Firefox/121.0,GET request to /api/users completed with status 200
+2025-01-15 08:36:30,INFO,app-server-01,192.168.1.209,GET,/api/users,200,72,PostmanRuntime/7.0.0,GET request to /api/users completed with status 200
+2025-01-15 08:37:00,WARNING,db-server-01,192.168.1.88,PUT,/api/health,401,128,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,PUT request to /api/health completed with status 401
+2025-01-15 08:37:30,INFO,db-server-01,192.168.1.236,DELETE,/api/orders,200,71,PostmanRuntime/7.0.0,DELETE request to /api/orders completed with status 200
+2025-01-15 08:38:00,DEBUG,app-server-01,192.168.1.14,DELETE,/api/search,200,43,Firefox/121.0,DELETE request to /api/search completed with status 200
+2025-01-15 08:38:30,INFO,web-server-01,192.168.1.104,DELETE,/api/orders,200,22,Chrome/120.0.0.0 Safari/537.36,DELETE request to /api/orders completed with status 200
+2025-01-15 08:39:00,INFO,app-server-01,192.168.1.49,GET,/api/orders,200,48,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,GET request to /api/orders completed with status 200
+2025-01-15 08:39:30,WARNING,db-server-01,192.168.1.203,GET,/api/health,404,123,Firefox/121.0,GET request to /api/health completed with status 404
+2025-01-15 08:40:00,INFO,db-server-01,192.168.1.213,POST,/api/products,200,97,PostmanRuntime/7.0.0,POST request to /api/products completed with status 200
+2025-01-15 08:40:30,INFO,web-server-01,192.168.1.154,PUT,/api/health,200,36,PostmanRuntime/7.0.0,PUT request to /api/health completed with status 200
+2025-01-15 08:41:00,INFO,app-server-01,192.168.1.125,PUT,/api/users,200,51,Firefox/121.0,PUT request to /api/users completed with status 200
+2025-01-15 08:41:30,INFO,web-server-01,192.168.1.114,GET,/api/reports,200,48,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,GET request to /api/reports completed with status 200
+2025-01-15 08:42:00,DEBUG,web-server-01,192.168.1.70,POST,/api/health,200,64,Firefox/121.0,POST request to /api/health completed with status 200
+2025-01-15 08:42:30,INFO,web-server-01,192.168.1.222,GET,/api/products,200,13,Firefox/121.0,GET request to /api/products completed with status 200
+2025-01-15 08:43:00,INFO,web-server-01,192.168.1.172,POST,/api/payment,200,33,PostmanRuntime/7.0.0,POST request to /api/payment completed with status 200
+2025-01-15 08:43:30,WARNING,web-server-01,192.168.1.114,PUT,/api/users,401,48,Firefox/121.0,PUT request to /api/users completed with status 401
+2025-01-15 08:44:00,INFO,db-server-01,192.168.1.116,DELETE,/api/login,200,90,Chrome/120.0.0.0 Safari/537.36,DELETE request to /api/login completed with status 200
+2025-01-15 08:44:30,DEBUG,web-server-01,192.168.1.198,GET,/api/login,200,26,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,GET request to /api/login completed with status 200
+2025-01-15 08:45:00,WARNING,web-server-01,192.168.1.114,DELETE,/api/reports,401,49,PostmanRuntime/7.0.0,DELETE request to /api/reports completed with status 401
+2025-01-15 08:45:30,INFO,app-server-01,192.168.1.113,POST,/api/login,200,55,PostmanRuntime/7.0.0,POST request to /api/login completed with status 200
+2025-01-15 08:46:00,INFO,db-server-01,192.168.1.178,DELETE,/api/login,200,149,Chrome/120.0.0.0 Safari/537.36,DELETE request to /api/login completed with status 200
+2025-01-15 08:46:30,INFO,app-server-01,192.168.1.251,GET,/api/health,200,65,Firefox/121.0,GET request to /api/health completed with status 200
+2025-01-15 08:47:00,INFO,web-server-01,192.168.1.188,POST,/api/users,200,37,Chrome/120.0.0.0 Safari/537.36,POST request to /api/users completed with status 200
+2025-01-15 08:47:30,DEBUG,app-server-01,192.168.1.117,GET,/api/users,200,14,Chrome/120.0.0.0 Safari/537.36,GET request to /api/users completed with status 200
+2025-01-15 08:48:00,INFO,web-server-01,192.168.1.38,PUT,/api/health,200,15,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,PUT request to /api/health completed with status 200
+2025-01-15 08:48:30,INFO,web-server-01,192.168.1.45,DELETE,/api/search,200,41,Firefox/121.0,DELETE request to /api/search completed with status 200
+2025-01-15 08:49:00,WARNING,db-server-01,192.168.1.16,PUT,/api/orders,401,133,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,PUT request to /api/orders completed with status 401
+2025-01-15 08:49:30,INFO,db-server-01,192.168.1.195,POST,/api/users,200,64,PostmanRuntime/7.0.0,POST request to /api/users completed with status 200
+2025-01-15 08:50:00,INFO,web-server-01,192.168.1.223,PUT,/api/login,200,61,Chrome/120.0.0.0 Safari/537.36,PUT request to /api/login completed with status 200
+2025-01-15 08:50:30,INFO,web-server-01,192.168.1.196,DELETE,/api/products,200,64,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,DELETE request to /api/products completed with status 200
+2025-01-15 08:51:00,INFO,db-server-01,192.168.1.252,PUT,/api/users,200,71,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,PUT request to /api/users completed with status 200
+2025-01-15 08:51:30,DEBUG,app-server-01,192.168.1.7,GET,/api/health,200,77,Firefox/121.0,GET request to /api/health completed with status 200
+2025-01-15 08:52:00,WARNING,db-server-01,192.168.1.159,GET,/api/products,404,138,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,GET request to /api/products completed with status 404
+2025-01-15 08:52:30,INFO,db-server-01,192.168.1.206,DELETE,/api/payment,200,107,Firefox/121.0,DELETE request to /api/payment completed with status 200
+2025-01-15 08:53:00,DEBUG,web-server-01,192.168.1.133,GET,/api/search,200,38,Firefox/121.0,GET request to /api/search completed with status 200
+2025-01-15 08:53:30,DEBUG,db-server-01,192.168.1.204,GET,/api/users,200,128,Chrome/120.0.0.0 Safari/537.36,GET request to /api/users completed with status 200
+2025-01-15 08:54:00,INFO,db-server-01,192.168.1.4,POST,/api/health,200,121,Chrome/120.0.0.0 Safari/537.36,POST request to /api/health completed with status 200
+2025-01-15 08:54:30,INFO,web-server-01,192.168.1.143,POST,/api/health,200,36,Chrome/120.0.0.0 Safari/537.36,POST request to /api/health completed with status 200
+2025-01-15 08:55:00,WARNING,web-server-01,192.168.1.50,POST,/api/users,401,68,Firefox/121.0,POST request to /api/users completed with status 401
+2025-01-15 08:55:30,INFO,db-server-01,192.168.1.246,PUT,/api/payment,200,105,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,PUT request to /api/payment completed with status 200
+2025-01-15 08:56:00,INFO,db-server-01,192.168.1.208,GET,/api/login,200,80,Firefox/121.0,GET request to /api/login completed with status 200
+2025-01-15 08:56:30,ERROR,app-server-01,192.168.1.192,PUT,/api/health,500,117,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,PUT request to /api/health completed with status 500
+2025-01-15 08:57:00,DEBUG,db-server-01,192.168.1.226,GET,/api/payment,200,62,PostmanRuntime/7.0.0,GET request to /api/payment completed with status 200
+2025-01-15 08:57:30,INFO,web-server-01,192.168.1.88,DELETE,/api/reports,200,79,PostmanRuntime/7.0.0,DELETE request to /api/reports completed with status 200
+2025-01-15 08:58:00,INFO,web-server-01,192.168.1.131,PUT,/api/payment,200,37,Firefox/121.0,PUT request to /api/payment completed with status 200
+2025-01-15 08:58:30,INFO,db-server-01,192.168.1.98,GET,/api/health,200,110,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,GET request to /api/health completed with status 200
+2025-01-15 08:59:00,INFO,db-server-01,192.168.1.187,DELETE,/api/health,200,141,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,DELETE request to /api/health completed with status 200
+2025-01-15 08:59:30,INFO,app-server-01,192.168.1.98,GET,/api/products,200,44,PostmanRuntime/7.0.0,GET request to /api/products completed with status 200
+2025-01-15 09:00:00,INFO,app-server-01,192.168.1.145,PUT,/api/payment,200,65,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,PUT request to /api/payment completed with status 200
+2025-01-15 09:00:30,WARNING,app-server-01,192.168.1.229,DELETE,/api/reports,404,75,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,DELETE request to /api/reports completed with status 404
+2025-01-15 09:01:00,WARNING,app-server-01,192.168.1.149,PUT,/api/search,401,68,Firefox/121.0,PUT request to /api/search completed with status 401
+2025-01-15 09:01:30,DEBUG,web-server-01,192.168.1.249,GET,/api/health,200,20,PostmanRuntime/7.0.0,GET request to /api/health completed with status 200
+2025-01-15 09:02:00,INFO,app-server-01,192.168.1.143,POST,/api/payment,200,74,Chrome/120.0.0.0 Safari/537.36,POST request to /api/payment completed with status 200
+2025-01-15 09:02:30,INFO,db-server-01,192.168.1.175,PUT,/api/search,200,135,PostmanRuntime/7.0.0,PUT request to /api/search completed with status 200
+2025-01-15 09:03:00,INFO,db-server-01,192.168.1.106,POST,/api/orders,200,87,PostmanRuntime/7.0.0,POST request to /api/orders completed with status 200
+2025-01-15 09:03:30,INFO,app-server-01,192.168.1.217,POST,/api/health,200,28,Chrome/120.0.0.0 Safari/537.36,POST request to /api/health completed with status 200
+2025-01-15 09:04:00,INFO,db-server-01,192.168.1.99,DELETE,/api/search,200,96,PostmanRuntime/7.0.0,DELETE request to /api/search completed with status 200
+2025-01-15 09:04:30,INFO,web-server-01,192.168.1.217,PUT,/api/users,200,41,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,PUT request to /api/users completed with status 200
+2025-01-15 09:05:00,INFO,app-server-01,192.168.1.63,PUT,/api/health,200,33,Firefox/121.0,PUT request to /api/health completed with status 200
+2025-01-15 09:05:30,DEBUG,app-server-01,192.168.1.187,GET,/api/products,200,26,Chrome/120.0.0.0 Safari/537.36,GET request to /api/products completed with status 200
+2025-01-15 09:06:00,INFO,web-server-01,192.168.1.204,POST,/api/orders,200,73,Chrome/120.0.0.0 Safari/537.36,POST request to /api/orders completed with status 200
+2025-01-15 09:06:30,INFO,db-server-01,192.168.1.159,DELETE,/api/payment,200,70,Firefox/121.0,DELETE request to /api/payment completed with status 200
+2025-01-15 09:07:00,DEBUG,web-server-01,192.168.1.29,POST,/api/health,200,52,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,POST request to /api/health completed with status 200
+2025-01-15 09:07:30,INFO,app-server-01,192.168.1.17,POST,/api/reports,200,57,PostmanRuntime/7.0.0,POST request to /api/reports completed with status 200
+2025-01-15 09:08:00,WARNING,db-server-01,192.168.1.129,GET,/api/login,401,112,Firefox/121.0,GET request to /api/login completed with status 401
+2025-01-15 09:08:30,INFO,web-server-01,192.168.1.107,POST,/api/login,200,65,Chrome/120.0.0.0 Safari/537.36,POST request to /api/login completed with status 200
+2025-01-15 09:09:00,INFO,app-server-01,192.168.1.199,DELETE,/api/payment,200,46,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,DELETE request to /api/payment completed with status 200
+2025-01-15 09:09:30,INFO,db-server-01,192.168.1.164,DELETE,/api/users,200,68,Chrome/120.0.0.0 Safari/537.36,DELETE request to /api/users completed with status 200
+2025-01-15 09:10:00,DEBUG,app-server-01,192.168.1.211,PUT,/api/orders,200,77,Chrome/120.0.0.0 Safari/537.36,PUT request to /api/orders completed with status 200
+2025-01-15 09:10:30,INFO,db-server-01,192.168.1.156,POST,/api/payment,200,68,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,POST request to /api/payment completed with status 200
+2025-01-15 09:11:00,INFO,app-server-01,192.168.1.124,GET,/api/payment,200,48,PostmanRuntime/7.0.0,GET request to /api/payment completed with status 200
+2025-01-15 09:11:30,INFO,db-server-01,192.168.1.207,PUT,/api/search,200,135,Chrome/120.0.0.0 Safari/537.36,PUT request to /api/search completed with status 200
+2025-01-15 09:12:00,DEBUG,web-server-01,192.168.1.47,POST,/api/orders,200,73,Chrome/120.0.0.0 Safari/537.36,POST request to /api/orders completed with status 200
+2025-01-15 09:12:30,DEBUG,web-server-01,192.168.1.221,GET,/api/payment,200,54,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,GET request to /api/payment completed with status 200
+2025-01-15 09:13:00,DEBUG,db-server-01,192.168.1.39,GET,/api/search,200,126,PostmanRuntime/7.0.0,GET request to /api/search completed with status 200
+2025-01-15 09:13:30,INFO,web-server-01,192.168.1.37,DELETE,/api/reports,200,75,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,DELETE request to /api/reports completed with status 200
+2025-01-15 09:14:00,INFO,db-server-01,192.168.1.133,GET,/api/reports,200,130,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,GET request to /api/reports completed with status 200
+2025-01-15 09:14:30,DEBUG,app-server-01,192.168.1.70,DELETE,/api/users,200,37,Chrome/120.0.0.0 Safari/537.36,DELETE request to /api/users completed with status 200
+2025-01-15 09:15:00,INFO,app-server-01,192.168.1.157,PUT,/api/login,200,23,Chrome/120.0.0.0 Safari/537.36,PUT request to /api/login completed with status 200
+2025-01-15 09:15:30,INFO,app-server-01,192.168.1.116,PUT,/api/orders,200,62,PostmanRuntime/7.0.0,PUT request to /api/orders completed with status 200
+2025-01-15 09:16:00,INFO,app-server-01,192.168.1.10,GET,/api/users,200,41,Chrome/120.0.0.0 Safari/537.36,GET request to /api/users completed with status 200
+2025-01-15 09:16:30,ERROR,app-server-01,192.168.1.23,PUT,/api/login,500,410,PostmanRuntime/7.0.0,PUT request to /api/login completed with status 500
+2025-01-15 09:17:00,INFO,db-server-01,192.168.1.110,DELETE,/api/login,200,110,Chrome/120.0.0.0 Safari/537.36,DELETE request to /api/login completed with status 200
+2025-01-15 09:17:30,INFO,db-server-01,192.168.1.153,POST,/api/users,200,66,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,POST request to /api/users completed with status 200
+2025-01-15 09:18:00,INFO,web-server-01,192.168.1.45,GET,/api/login,200,77,Firefox/121.0,GET request to /api/login completed with status 200
+2025-01-15 09:18:30,INFO,app-server-01,192.168.1.193,PUT,/api/login,200,50,PostmanRuntime/7.0.0,PUT request to /api/login completed with status 200
+2025-01-15 09:19:00,INFO,db-server-01,192.168.1.249,GET,/api/health,200,133,PostmanRuntime/7.0.0,GET request to /api/health completed with status 200
+2025-01-15 09:19:30,INFO,web-server-01,192.168.1.184,GET,/api/payment,200,28,Chrome/120.0.0.0 Safari/537.36,GET request to /api/payment completed with status 200
+2025-01-15 09:20:00,INFO,app-server-01,192.168.1.189,POST,/api/payment,200,25,Chrome/120.0.0.0 Safari/537.36,POST request to /api/payment completed with status 200
+2025-01-15 09:20:30,INFO,web-server-01,192.168.1.186,DELETE,/api/payment,200,77,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,DELETE request to /api/payment completed with status 200
+2025-01-15 09:21:00,INFO,app-server-01,192.168.1.204,POST,/api/search,200,28,Chrome/120.0.0.0 Safari/537.36,POST request to /api/search completed with status 200
+2025-01-15 09:21:30,INFO,db-server-01,192.168.1.154,POST,/api/orders,200,141,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,POST request to /api/orders completed with status 200
+2025-01-15 09:22:00,INFO,db-server-01,192.168.1.74,GET,/api/health,200,74,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,GET request to /api/health completed with status 200
+2025-01-15 09:22:30,INFO,web-server-01,192.168.1.18,POST,/api/payment,200,57,PostmanRuntime/7.0.0,POST request to /api/payment completed with status 200
+2025-01-15 09:23:00,INFO,web-server-01,192.168.1.171,PUT,/api/orders,200,58,Chrome/120.0.0.0 Safari/537.36,PUT request to /api/orders completed with status 200
+2025-01-15 09:23:30,WARNING,web-server-01,192.168.1.224,DELETE,/api/products,401,33,PostmanRuntime/7.0.0,DELETE request to /api/products completed with status 401
+2025-01-15 09:24:00,WARNING,web-server-01,192.168.1.75,DELETE,/api/health,404,72,Firefox/121.0,DELETE request to /api/health completed with status 404
+2025-01-15 09:24:30,INFO,web-server-01,192.168.1.218,DELETE,/api/products,200,49,Firefox/121.0,DELETE request to /api/products completed with status 200
+2025-01-15 09:25:00,INFO,db-server-01,192.168.1.120,DELETE,/api/users,200,118,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,DELETE request to /api/users completed with status 200
+2025-01-15 09:25:30,INFO,web-server-01,192.168.1.82,DELETE,/api/products,200,31,Firefox/121.0,DELETE request to /api/products completed with status 200
+2025-01-15 09:26:00,INFO,web-server-01,192.168.1.211,DELETE,/api/payment,200,22,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,DELETE request to /api/payment completed with status 200
+2025-01-15 09:26:30,INFO,app-server-01,192.168.1.200,PUT,/api/payment,200,24,Firefox/121.0,PUT request to /api/payment completed with status 200
+2025-01-15 09:27:00,INFO,app-server-01,192.168.1.175,POST,/api/users,200,38,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,POST request to /api/users completed with status 200
+2025-01-15 09:27:30,INFO,app-server-01,192.168.1.161,DELETE,/api/health,200,45,Firefox/121.0,DELETE request to /api/health completed with status 200
+2025-01-15 09:28:00,INFO,db-server-01,192.168.1.187,DELETE,/api/orders,200,128,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,DELETE request to /api/orders completed with status 200
+2025-01-15 09:28:30,INFO,app-server-01,192.168.1.30,DELETE,/api/search,200,60,Chrome/120.0.0.0 Safari/537.36,DELETE request to /api/search completed with status 200
+2025-01-15 09:29:00,WARNING,db-server-01,192.168.1.132,PUT,/api/payment,401,78,Chrome/120.0.0.0 Safari/537.36,PUT request to /api/payment completed with status 401
+2025-01-15 09:29:30,INFO,app-server-01,192.168.1.142,POST,/api/products,200,18,PostmanRuntime/7.0.0,POST request to /api/products completed with status 200
+2025-01-15 09:30:00,INFO,web-server-01,192.168.1.79,POST,/api/reports,200,41,Firefox/121.0,POST request to /api/reports completed with status 200
+2025-01-15 09:30:30,INFO,web-server-01,192.168.1.97,PUT,/api/reports,200,34,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,PUT request to /api/reports completed with status 200
+2025-01-15 09:31:00,DEBUG,db-server-01,192.168.1.226,DELETE,/api/health,200,106,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,DELETE request to /api/health completed with status 200
+2025-01-15 09:31:30,INFO,db-server-01,192.168.1.151,GET,/api/reports,200,137,PostmanRuntime/7.0.0,GET request to /api/reports completed with status 200
+2025-01-15 09:32:00,INFO,app-server-01,192.168.1.125,PUT,/api/orders,200,58,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,PUT request to /api/orders completed with status 200
+2025-01-15 09:32:30,WARNING,app-server-01,192.168.1.102,GET,/api/health,401,60,Chrome/120.0.0.0 Safari/537.36,GET request to /api/health completed with status 401
+2025-01-15 09:33:00,DEBUG,web-server-01,192.168.1.230,POST,/api/search,200,24,PostmanRuntime/7.0.0,POST request to /api/search completed with status 200
+2025-01-15 09:33:30,INFO,db-server-01,192.168.1.225,DELETE,/api/products,200,89,PostmanRuntime/7.0.0,DELETE request to /api/products completed with status 200
+2025-01-15 09:34:00,INFO,app-server-01,192.168.1.6,GET,/api/orders,200,28,PostmanRuntime/7.0.0,GET request to /api/orders completed with status 200
+2025-01-15 09:34:30,INFO,app-server-01,192.168.1.60,DELETE,/api/users,200,49,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,DELETE request to /api/users completed with status 200
+2025-01-15 09:35:00,WARNING,db-server-01,192.168.1.191,DELETE,/api/reports,401,148,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,DELETE request to /api/reports completed with status 401
+2025-01-15 09:35:30,DEBUG,app-server-01,192.168.1.147,GET,/api/search,200,21,PostmanRuntime/7.0.0,GET request to /api/search completed with status 200
+2025-01-15 09:36:00,INFO,web-server-01,192.168.1.41,GET,/api/login,200,36,Firefox/121.0,GET request to /api/login completed with status 200
+2025-01-15 09:36:30,ERROR,web-server-01,192.168.1.114,PUT,/api/health,500,120,PostmanRuntime/7.0.0,PUT request to /api/health completed with status 500
+2025-01-15 09:37:00,INFO,db-server-01,192.168.1.123,POST,/api/reports,200,73,Chrome/120.0.0.0 Safari/537.36,POST request to /api/reports completed with status 200
+2025-01-15 09:37:30,WARNING,db-server-01,192.168.1.13,GET,/api/login,404,118,Chrome/120.0.0.0 Safari/537.36,GET request to /api/login completed with status 404
+2025-01-15 09:38:00,INFO,db-server-01,192.168.1.60,PUT,/api/payment,200,110,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,PUT request to /api/payment completed with status 200
+2025-01-15 09:38:30,INFO,db-server-01,192.168.1.83,DELETE,/api/reports,200,125,Firefox/121.0,DELETE request to /api/reports completed with status 200
+2025-01-15 09:39:00,INFO,db-server-01,192.168.1.64,POST,/api/health,200,91,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,POST request to /api/health completed with status 200
+2025-01-15 09:39:30,INFO,app-server-01,192.168.1.43,POST,/api/products,200,14,Firefox/121.0,POST request to /api/products completed with status 200
